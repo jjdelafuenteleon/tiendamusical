@@ -11,4 +11,21 @@
     <module>tiendamusical-services</module>
     <module>tiendamusical-web</module>
   </modules>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>14</maven.compiler.source>
+    <maven.compiler.target>14</maven.compiler.target>
+    
+    <junit-version>4.11</junit-version>
+    <hibernate-version>5.6.8.Final</hibernate-version>
+    <mysql-connector-version>8.0.22</mysql-connector-version>
+    <spring-data-jpa-version>2.6.4</spring-data-jpa-version>
+    <spring-version>5.3.19</spring-version>
+    <commons-dbcp2-version>2.9.0</commons-dbcp2-version>
+    <hibernate-jpa-version>1.0.2.Final</hibernate-jpa-version>
+    <jsf-version>2.2.20</jsf-version>
+    <javax-annotation-version>1.3.2</javax-annotation-version>
+    <primafaces-version>8.0</primafaces-version>
+  </properties>
 </project>
